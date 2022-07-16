@@ -5,5 +5,8 @@
   ],
   "plugins": [
     "@babel/plugin-transform-runtime"
-  ]
+  ],
+  "rules": {
+    "react/prefer-stateless-function": "off"
+  }
 }
