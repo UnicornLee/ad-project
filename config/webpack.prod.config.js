@@ -16,9 +16,9 @@ const webpackConfigDev = {
       inject: 'body',
       title: 'React APP',
       filename: 'index.html',
-      template: path.join(__dirname, '../src/index.html')
-    })
+      template: path.join(__dirname, '../src/index.html'),
+    }),
   ],
-}
+};
 
 module.exports = merge(webpackConfigBase, webpackConfigDev);
